@@ -11,9 +11,7 @@ gcc barnes_hut.c -o main.out -lm -fopenmp
 
 ## Execução
 
-Dentro da pasta *src* tem o arquivo **in.txt**. Este é o input do algoritmo, atualmente usando a entrada informada no enunciado do trabalho.
-
-O algoritmo permite a execução do utilizando 1, 2, 4, 8 ou 16 threads, de acordo com a entrada. Segue exemplos de uso do programa:
+Dentro da pasta *src* tem o arquivo **in.txt**. Este é o input do algoritmo, atualmente usando a entrada informada no enunciado do trabalho. O algoritmo permite a execução utilizando 1, 2, 4, 8 ou 16 threads, de acordo com a entrada. Segue exemplos de uso do programa:
 
 ```sh
 # 1 thread
