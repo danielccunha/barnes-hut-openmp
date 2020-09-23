@@ -1,4 +1,4 @@
-# Trabalho Galaxy
+# Trabalho Barnes Hut
 
 Implementação da paralelização do problema Galaxy na matéria de Programação Paralela e Distribuída. Esse repositório possui o código na pasta **src** e os dados relatados no relatório na pasta **data**.
 
@@ -11,7 +11,9 @@ gcc barnes_hut.c -o main.out -lm -fopenmp
 
 ## Execução
 
-Dentro da pasta *src* tem o arquivo **in.txt**. Este é o input do algoritmo, atualmente usando a entrada informada no enunciado do trabalho. O algoritmo permite a execução utilizando 1, 2, 4, 8 ou 16 threads, de acordo com a entrada. Segue exemplos de uso do programa:
+Dentro da pasta _src_ tem o arquivo **in.txt**. Este é o input do algoritmo, atualmente usando a entrada informada no enunciado do trabalho. O algoritmo permite a execução utilizando 1, 2, 4, 8 ou 16 threads, de acordo com a entrada.
+
+O programa opcionalmente recebe dois parâmetros, o primeiro sendo o número de threads e o segundo o nome do arquivo. Segue exemplos de uso do programa, especificando o número de threads e passando os dados de input (sem informar o arquivo):
 
 ```sh
 # 1 thread
